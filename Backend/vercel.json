@@ -2,11 +2,11 @@
   "version": 2,
   "builds": [
     {
-      "src": "build//*",
+      "src": "build/index.htmk",
       "use": "@vercel/static"
     },
     {
-      "src": "api//*.js",
+      "src": "src/server.js",
       "use": "@vercel/node"
     }
   ],
