@@ -15,9 +15,37 @@
       "src": "/api/(.*)",
       "dest": "src/server.js"
     },
-     {
+    {
+      "src": "/login-admin",
+      "dest": "/build/index.html"
+    },
+    {
       "src": "/login-driver",
-      "dest": "/build"
+      "dest": "/build/index.html"
+    },
+    {
+      "src": "/register-driver",
+      "dest": "/build/index.html"
+    },
+    {
+      "src": "/register-user",
+      "dest": "/build/index.html"
+    },
+    {
+      "src": "/admin-dashboard",
+      "dest": "/build/index.html"
+    },
+    {
+      "src": "/driver-dashboard/(.*)",
+      "dest": "/build/index.html"
+    },
+    {
+      "src": "/user-dashboard/(.*)",
+      "dest": "/build/index.html"
+    },
+    {
+      "src": "/unauthorized",
+      "dest": "/build/index.html"
     },
     {
       "src": "/(.*)",
